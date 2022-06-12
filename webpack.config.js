@@ -77,8 +77,9 @@ module.exports = {
   // tutorial, uncomment the following lines:
   module: {
    rules: [
-     { test: /\.(ts|tsx|jsx)$/, loader: "ts-loader" },
-    //  { test: /\.css$/, use: ['style-loader','css-loader'] }
+     { test: /\.js$|jsx/, use: "ts-loader"},
+     { test: /\.png/, use: "file-loader"},
+     { test: /\.css$/, use: ['style-loader','css-loader'] }
    ]
   },
   plugins: [

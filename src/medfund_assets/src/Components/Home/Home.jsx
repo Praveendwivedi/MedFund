@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 import "./Home.css";
-import logo from "./../../assets/logo.png";
+import logo from "./../../../assets/logo.png";
 import homeImg from "./../../assets/home-img.jpg";
 import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col'
 
-class Home extends React.Componenet{
+class Home extends React.Component{
     render(){
         return(
             <div className="home-component">
